@@ -102,18 +102,6 @@ export default function HowItWorks() {
                       <p className="text-sm mt-1 leading-relaxed" style={{ color: 'var(--kora-text-body)' }}>
                         {step.description}
                       </p>
-                      {step.number === 3 && (
-                        <div className="mt-3 hidden md:block">
-                          <Image
-                            src="/kit.png"
-                            alt="Treatment kit"
-                            width={120}
-                            height={120}
-                            className="rounded-lg mx-auto"
-                            style={{ opacity: 0.9 }}
-                          />
-                        </div>
-                      )}
                     </div>
                   </div>
 
@@ -137,6 +125,21 @@ export default function HowItWorks() {
                     <p className="text-sm mt-1 leading-relaxed" style={{ color: 'var(--kora-text-body)' }}>
                       {step.description}
                     </p>
+                    {step.number === 1 && (
+                      <div className="mt-4">
+                        <Image src="/img-consultation.png" alt="Video consultation with physician" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
+                      </div>
+                    )}
+                    {step.number === 2 && (
+                      <div className="mt-4">
+                        <Image src="/img-doctor.png" alt="Doctor reviewing patient information" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
+                      </div>
+                    )}
+                    {step.number === 3 && (
+                      <div className="mt-4">
+                        <Image src="/img-coldchain.png" alt="Kora Health tirzepatide in cold-chain packaging" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
+                      </div>
+                    )}
                   </div>
                 </ScrollReveal>
               )

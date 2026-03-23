@@ -78,17 +78,20 @@ export default function Hero() {
           <div className="hero-fade mt-10" style={{ animationDelay: '400ms' }}>
             <div className="max-w-sm mx-auto">
               <Image
-                src="/kit.png"
-                alt="Kora Health Tirzepatide treatment kit"
+                src="/img-consultation.png"
+                alt="Patient consulting with a Kora Health physician via video call"
                 width={400}
                 height={400}
                 className="w-full h-auto rounded-2xl"
                 style={{
-                  boxShadow: '0 8px 32px rgba(0,0,0,0.08)',
+                  boxShadow: '0 12px 40px rgba(0,0,0,0.10)',
                   border: '1px solid var(--kora-border-light)',
                 }}
                 priority={true}
               />
+              <p className="text-xs text-center mt-3" style={{ color: 'var(--kora-text-muted)' }}>
+                Consult with a licensed physician from home
+              </p>
             </div>
           </div>
 

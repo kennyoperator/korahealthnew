@@ -1,6 +1,7 @@
 'use client'
 
 import { X, Check } from 'lucide-react'
+import Image from 'next/image'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 import CTAButton from '@/components/ui/CTAButton'
 
@@ -95,6 +96,16 @@ export default function WhyKora() {
               >
                 Kora Health
               </p>
+              <div className="mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/img-coldchain.png"
+                  alt="Temperature-controlled medication packaging"
+                  width={400}
+                  height={300}
+                  className="w-full h-auto"
+                  style={{ maxHeight: '200px', objectFit: 'cover', objectPosition: 'center' }}
+                />
+              </div>
               <ul className="flex flex-col gap-3">
                 {kora.map(item => (
                   <li key={item} className="flex items-start gap-3">

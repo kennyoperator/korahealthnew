@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 import CTAButton from '@/components/ui/CTAButton'
 
@@ -89,6 +90,29 @@ export default function ResultsSection() {
         </div>
 
         <ScrollReveal delay={240}>
+          <div
+            className="max-w-md mx-auto mt-10 rounded-2xl overflow-hidden"
+            style={{
+              border: '1px solid var(--kora-border-light)',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.06)',
+            }}
+          >
+            <Image
+              src="/img-consultation.png"
+              alt="Physician consultation for weight management"
+              width={500}
+              height={500}
+              className="w-full h-auto"
+            />
+            <div className="p-5 text-center" style={{ backgroundColor: 'var(--kora-surface)' }}>
+              <p className="text-sm font-medium" style={{ color: 'var(--kora-text-primary)' }}>
+                Every Kora patient is evaluated by a licensed physician
+              </p>
+              <p className="text-xs mt-1" style={{ color: 'var(--kora-text-muted)' }}>
+                Your treatment plan is personalized based on your health profile, goals, and medical history
+              </p>
+            </div>
+          </div>
           <p
             className="text-sm font-normal text-center mt-8 max-w-xl mx-auto"
             style={{ color: 'var(--kora-text-muted)' }}

@@ -1,6 +1,7 @@
 'use client'
 
 import { Stethoscope } from 'lucide-react'
+import Image from 'next/image'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 import CTAButton from '@/components/ui/CTAButton'
 
@@ -68,22 +69,23 @@ export default function TeamSection() {
               <div className="text-center">
                 <div className="flex flex-col items-center">
                   {person.isDoctor ? (
-                    <div
-                      className="flex items-center justify-center rounded-full mx-auto"
-                      style={{
-                        width: 96,
-                        height: 96,
-                        backgroundColor: 'var(--kora-brand-subtle)',
-                        border: '2px solid var(--kora-border)',
-                      }}
-                      aria-label="Physician avatar placeholder"
-                    >
-                      <Stethoscope
-                        size={32}
-                        strokeWidth={1.5}
-                        style={{ color: 'var(--kora-brand)' }}
-                        aria-hidden="true"
-                      />
+                    <div className="flex flex-col items-center">
+                      <div
+                        className="rounded-full overflow-hidden"
+                        style={{
+                          width: 96,
+                          height: 96,
+                          border: '2px solid var(--kora-border)',
+                        }}
+                      >
+                        <Image
+                          src="/img-doctor.png"
+                          alt="Kora Health Medical Director"
+                          width={96}
+                          height={96}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
                     </div>
                   ) : (
                     <div
@@ -106,9 +108,7 @@ export default function TeamSection() {
                     className="text-[11px] font-normal mt-1.5"
                     style={{ color: 'var(--kora-text-muted)' }}
                   >
-                    {person.isDoctor
-                      ? 'Physician credentials will be displayed here.'
-                      : 'Photo coming soon'}
+                    {person.isDoctor ? null : 'Photo coming soon'}
                   </p>
                 </div>
 
