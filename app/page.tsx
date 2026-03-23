@@ -8,7 +8,7 @@ import WhatIsRetatrutide from '@/components/sections/WhatIsRetatrutide'
 import WhyKora from '@/components/sections/WhyKora'
 import ResultsSection from '@/components/sections/ResultsSection'
 import TeamSection from '@/components/sections/TeamSection'
-import ProgramOverviewSection from '@/components/sections/ProgramOverviewSection'
+import ProgramOverview from '@/components/sections/ProgramOverview'
 import ExpectationTimeline from '@/components/sections/ExpectationTimeline'
 import QualificationSection from '@/components/sections/QualificationSection'
 import FAQSection from '@/components/sections/FAQSection'
@@ -25,7 +25,7 @@ export default function HomePage() {
       <WhyKora />
       <ResultsSection />
       <TeamSection />
-      <ProgramOverviewSection />
+      <ProgramOverview />
       <ExpectationTimeline />
       <QualificationSection />
       <FAQSection />
