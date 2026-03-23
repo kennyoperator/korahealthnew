@@ -98,18 +98,18 @@ export default function ResultsSection() {
             }}
           >
             <Image
-              src="/img-consultation.png"
-              alt="Physician consultation for weight management"
+              src="/img-doctor-videocall.png"
+              alt="Telehealth consultation with a Kora Health physician from home"
               width={500}
               height={500}
               className="w-full h-auto"
             />
             <div className="p-5 text-center" style={{ backgroundColor: 'var(--kora-surface)' }}>
               <p className="text-sm font-medium" style={{ color: 'var(--kora-text-primary)' }}>
-                Every Kora patient is evaluated by a licensed physician
+                Real physicians. Real consultations. From your home.
               </p>
               <p className="text-xs mt-1" style={{ color: 'var(--kora-text-muted)' }}>
-                Your treatment plan is personalized based on your health profile, goals, and medical history
+                Every treatment plan is personalized by a licensed doctor based on your health profile
               </p>
             </div>
           </div>

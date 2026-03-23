@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 
 const stages = [
@@ -87,6 +88,18 @@ export default function ExpectationTimeline() {
                 >
                   {stage.description}
                 </p>
+                {stage.period === 'Months 2–3' && (
+                  <div className="mt-4">
+                    <Image
+                      src="/img-progress.png"
+                      alt="Patient measuring weight loss progress"
+                      width={140}
+                      height={140}
+                      className="rounded-xl mx-auto"
+                      style={{ boxShadow: '0 4px 12px rgba(0,0,0,0.06)' }}
+                    />
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -131,6 +144,18 @@ export default function ExpectationTimeline() {
                   >
                     {stage.description}
                   </p>
+                  {stage.period === 'Months 2–3' && (
+                    <div className="mt-3">
+                      <Image
+                        src="/img-progress.png"
+                        alt="Patient measuring weight loss progress"
+                        width={120}
+                        height={120}
+                        className="rounded-xl"
+                        style={{ boxShadow: '0 4px 12px rgba(0,0,0,0.06)' }}
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
