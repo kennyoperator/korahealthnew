@@ -1,21 +1,11 @@
-import type { Metadata } from 'next'
+'use client'
+
 import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import MobileStickyBarBlog from '@/components/layout/MobileStickyBarBlog'
 import CTAButton from '@/components/ui/CTAButton'
 import { sortedArticles } from '@/lib/articles'
-
-export const metadata: Metadata = {
-  title: 'The Kora Health Journal | Metabolic Health Guides',
-  description:
-    'Evidence-based articles on tirzepatide, GLP-1 treatment, and physician-led weight management in the Philippines.',
-  openGraph: {
-    title: 'The Kora Health Journal | Metabolic Health Guides',
-    description:
-      'Evidence-based articles on tirzepatide, GLP-1 treatment, and physician-led weight management in the Philippines.',
-  },
-}
 
 export default function LearnPage() {
   return (
@@ -75,16 +65,8 @@ export default function LearnPage() {
                 <h2 className="mt-2">
                   <Link
                     href={`/learn/${article.slug}`}
-                    className="font-medium text-xl transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 rounded-sm"
+                    className="font-medium text-xl transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 rounded-sm hover:text-[var(--kora-brand)]"
                     style={{ color: 'var(--kora-text-primary)' }}
-                    onMouseEnter={e =>
-                      ((e.currentTarget as HTMLElement).style.color =
-                        'var(--kora-brand)')
-                    }
-                    onMouseLeave={e =>
-                      ((e.currentTarget as HTMLElement).style.color =
-                        'var(--kora-text-primary)')
-                    }
                   >
                     {article.title}
                   </Link>

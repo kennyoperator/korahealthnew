@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface HeaderProps {
   variant?: 'default' | 'thankyou'
@@ -36,9 +37,18 @@ export default function Header({ variant = 'default' }: HeaderProps) {
     >
       <div className="w-full max-w-[1120px] mx-auto px-6 md:px-8 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-baseline gap-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 rounded-sm" style={{ color: 'var(--kora-text-primary)' }}>
-          <span className="font-serif text-[20px]" style={{ color: 'var(--kora-text-primary)' }}>Kora</span>
-          <span className="font-sans font-medium text-[20px]" style={{ color: 'var(--kora-text-primary)' }}>&nbsp;Health</span>
+        <Link href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 rounded-sm" style={{ color: 'var(--kora-text-primary)' }}>
+          <Image
+            src="/logo.png"
+            alt="Kora Health logo"
+            width={28}
+            height={28}
+            className="flex-shrink-0"
+          />
+          <div className="flex items-baseline">
+            <span className="font-serif text-[20px]" style={{ color: 'var(--kora-text-primary)' }}>Kora</span>
+            <span className="font-sans font-medium text-[20px]" style={{ color: 'var(--kora-text-primary)' }}>&nbsp;Health</span>
+          </div>
         </Link>
 
         {/* Right side */}

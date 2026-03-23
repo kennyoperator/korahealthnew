@@ -126,14 +126,8 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
               <Link
                 key={m.index}
                 href={href}
-                className="underline underline-offset-4 transition-colors duration-200"
+                className="underline underline-offset-4 transition-colors duration-200 hover:opacity-75"
                 style={{ color: 'var(--kora-brand)' }}
-                onMouseEnter={e =>
-                  ((e.currentTarget as HTMLElement).style.color = 'var(--kora-brand-hover)')
-                }
-                onMouseLeave={e =>
-                  ((e.currentTarget as HTMLElement).style.color = 'var(--kora-brand)')
-                }
               >
                 {linkText}
               </Link>
@@ -143,14 +137,8 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-4 transition-colors duration-200"
+                className="underline underline-offset-4 transition-colors duration-200 hover:opacity-75"
                 style={{ color: 'var(--kora-brand)' }}
-                onMouseEnter={e =>
-                  ((e.currentTarget as HTMLElement).style.color = 'var(--kora-brand-hover)')
-                }
-                onMouseLeave={e =>
-                  ((e.currentTarget as HTMLElement).style.color = 'var(--kora-brand)')
-                }
               >
                 {linkText}
               </a>

@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     locale: 'en_PH',
   },
   themeColor: '#FAF9F7',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({
