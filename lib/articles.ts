@@ -15,6 +15,358 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: 'retatrutide-philippines',
+    title: 'Retatrutide in the Philippines: What It Is, How It Works, and What to Know',
+    seoTitle: 'Retatrutide in the Philippines: What It Is, How It Works, and What to Know',
+    metaDescription: 'What retatrutide is, how it works as a triple agonist, what Phase 3 trials show, when it may reach the Philippines, and what treatment is available now.',
+    category: 'Treatment Guides',
+    readingTime: '9 min read',
+    publishedDate: '2026-03-25',
+    reviewedBy: 'Dr. [Physician Name]',
+    reviewedByTitle: 'Medical Director, Kora Health · PRC License #[000000]',
+    excerpt: 'Everything Filipinos need to know about retatrutide — Phase 3 results, expected timeline, what\'s available now, and why you don\'t have to wait.',
+    relatedSlugs: ['is-retatrutide-safe', 'how-to-explore-retatrutide-philippines', 'retatrutide-vs-tirzepatide'],
+    content: `A triple-agonist weight loss drug that produced 28.7% body weight reduction in its first Phase 3 trial. If you are in the Philippines and searching for information about retatrutide, that number is probably what brought you here.
+
+The interest is justified. But the gap between the clinical headlines and what is actually available to you today is significant — and navigating it requires clear information, not marketing.
+
+This guide covers what retatrutide is, how the triple-agonist mechanism works, what the clinical data actually shows, where it stands in the regulatory process, when it might become available, and what proven treatment options exist right now.
+
+## How Retatrutide Works: The Triple-Agonist Mechanism
+
+Retatrutide is an investigational once-weekly injectable developed by Eli Lilly. It is the first medication to simultaneously activate three hormone receptors involved in metabolic regulation.
+
+**GLP-1 receptor** — suppresses appetite, slows gastric emptying, improves insulin secretion. This is the pathway that semaglutide (Ozempic) and tirzepatide (Mounjaro) both target.
+
+**GIP receptor** — enhances insulin sensitivity, amplifies appetite suppression, may improve fat metabolism. Tirzepatide targets this alongside GLP-1. Semaglutide does not.
+
+**Glucagon receptor** — increases resting energy expenditure (the body burns more calories at rest) and accelerates hepatic fat clearance (liver fat reduction). Only retatrutide activates this among current GLP-1 class drugs.
+
+Each additional receptor pathway contributes a distinct metabolic benefit. The glucagon pathway — unique to retatrutide — is the likely driver behind its clinical trial results exceeding both semaglutide and tirzepatide. Some people search for retatrutide under the shortened term "reta," particularly in online health forums and social media. Throughout this guide, we use the full name for clarity.
+
+For a deeper look at the mechanism and safety data, see [what retatrutide is and how it works](/learn/is-retatrutide-safe).
+
+## What the Clinical Trials Show
+
+### Phase 2 (New England Journal of Medicine, 2023)
+
+The pivotal Phase 2 trial enrolled 338 adults with obesity. At 48 weeks, participants on the highest dose (12mg) lost an average of 24.2% of their body weight — the largest reduction recorded for a GLP-1 class drug at the time of publication.
+
+### Phase 3 — TRIUMPH-4 (December 2025)
+
+TRIUMPH-4 is the first completed Phase 3 trial. It studied 445 adults with obesity and knee osteoarthritis over 68 weeks. Results at the 12mg dose: 28.7% average body weight reduction (approximately 32.3kg from a 112.7kg baseline). The 9mg dose produced 26.4%.
+
+Beyond weight loss, TRIUMPH-4 showed 75.8% reduction in knee osteoarthritis pain scores, significant improvements in physical function, and reductions in cardiovascular risk markers including non-HDL cholesterol and systolic blood pressure.
+
+### What's Still Coming
+
+Seven additional Phase 3 trials in Eli Lilly's TRIUMPH program are expected to report throughout 2026, covering obesity without comorbidities, type 2 diabetes, cardiovascular outcomes, obstructive sleep apnea, chronic low back pain, and liver disease.
+
+## When Will Retatrutide Be Available in the Philippines?
+
+There is no confirmed date. Here is the most realistic timeline based on publicly available information.
+
+Remaining TRIUMPH trials are expected to complete throughout 2026. Eli Lilly has indicated it intends to file a New Drug Application (NDA) with the US FDA — likely in late 2026 or early 2027. Standard FDA review takes 10-12 months. Priority Review (possible given the unmet medical need) shortens this to 6-8 months.
+
+The most realistic window for US FDA approval is late 2027 to early 2028. Philippine FDA approval would follow — the gap depends on whether Eli Lilly files simultaneously or sequentially.
+
+Prediction markets give retatrutide only an 18% chance of approval in 2026. The consensus expectation is 2027.
+
+The bottom line: retatrutide is approximately 18-24 months from availability through legitimate medical channels in the Philippines.
+
+## What About Products Labeled "Retatrutide" Being Sold Now?
+
+Products marketed as retatrutide exist — from peptide vendors, compounders, and social media sellers. An honest assessment: these are not manufactured by Eli Lilly, have not been tested in clinical trials, are not verified for purity or potency by any regulatory body, and are sold without physician evaluation, prescription, or monitoring.
+
+The US FDA has issued warnings about unapproved GLP-1 products marketed for weight loss. The Philippine FDA has similarly cautioned against unregulated medications from unauthorized channels.
+
+Using an unverified product means accepting risks that a legitimate medical provider would never ask you to accept. The difference between pharmaceutical-grade retatrutide in a controlled clinical trial and an unverified vial from an online seller is not trivial.
+
+For a practical breakdown of the access situation, see [exploring retatrutide support in the Philippines](/learn/how-to-explore-retatrutide-philippines).
+
+## How Kora Health Is Preparing for Retatrutide
+
+Kora Health currently offers tirzepatide-based weight management programs with full medical oversight — physician evaluation, personalized prescribing, cold-chain delivery, and structured follow-up care. We are monitoring the retatrutide clinical program and regulatory timeline closely.
+
+When retatrutide receives regulatory approval, we intend to offer it as part of our treatment portfolio — with the same physician-led, safety-first approach. Patients who begin treatment with Kora now will have an established medical relationship in place for a seamless transition when new treatments become available.
+
+For patients across Metro Manila and the Philippines, see [where people are searching for retatrutide information](/learn/retatrutide-philippines-locations).
+
+For a comparison of how retatrutide stacks up against currently available treatment, see [retatrutide vs tirzepatide](/learn/retatrutide-vs-tirzepatide).`
+  },
+  {
+    slug: 'how-to-explore-retatrutide-philippines',
+    title: 'How to Explore Retatrutide Support in the Philippines: Consultation, Screening, and Next Steps',
+    seoTitle: 'How to Explore Retatrutide Support in the Philippines: Consultation, Screening, and Next Steps',
+    metaDescription: 'Interested in retatrutide? Here\'s what a physician-led consultation looks like, why screening matters, and what metabolic health support is available in the Philippines today.',
+    category: 'Weight Management',
+    readingTime: '7 min read',
+    publishedDate: '2026-03-25',
+    reviewedBy: 'Dr. [Physician Name]',
+    reviewedByTitle: 'Medical Director, Kora Health · PRC License #[000000]',
+    excerpt: 'What a physician-led metabolic health consultation looks like, why screening matters, and how to position yourself for the best care now and when retatrutide becomes available.',
+    relatedSlugs: ['retatrutide-philippines', 'is-retatrutide-safe', 'retatrutide-philippines-locations'],
+    content: `You have read about retatrutide's clinical results and you want to take the next step. The question is not whether the science is compelling — it is. The question is: what can you actually do about it in the Philippines right now?
+
+The answer is more practical than most articles will tell you. Retatrutide itself is not available through any legitimate channel yet. But the physician-led evaluation process that will eventually govern retatrutide access already exists — and it is already accessible for the treatment that sits closest to retatrutide in clinical effectiveness.
+
+This guide walks through what a proper metabolic health consultation looks like, why medical screening matters for any GLP-1 treatment, and how to position yourself for the best possible care both now and when retatrutide becomes available.
+
+## Why a Physician Consultation Comes First
+
+Any legitimate GLP-1 treatment — whether tirzepatide today or retatrutide in the future — requires a medical evaluation before prescription. This is not a formality. It is the safety infrastructure that separates medical care from a product transaction.
+
+A proper consultation includes a review of your complete medical history including chronic conditions, medications, and family medical history. The physician screens for contraindications — including thyroid cancer history, pancreatitis, MEN 2 syndrome, and pregnancy. Baseline metrics are established: weight, BMI, and relevant lab work if indicated. The physician discusses realistic expectations, the treatment timeline, potential side effects, and what the program involves.
+
+This process is identical whether the medication being considered is tirzepatide or — eventually — retatrutide. Establishing this medical relationship now means you are already prepared when new treatment options become available.
+
+For background on what retatrutide is and where it stands, see [retatrutide in the Philippines](/learn/retatrutide-philippines).
+
+## What "Exploring Retatrutide Support" Actually Means in 2026
+
+Since retatrutide is still in Phase 3 trials and has not been submitted for regulatory approval, "exploring retatrutide support" in practical terms means three things.
+
+First, understanding what retatrutide is, how the triple-agonist mechanism works, and what the clinical data shows — so you can make informed decisions when it does become available. For this, see [our guide to retatrutide safety and side effects](/learn/is-retatrutide-safe).
+
+Second, beginning treatment with the most effective currently approved medication — tirzepatide — under physician supervision. This is not a compromise. Tirzepatide produced 20.2% average body weight reduction in SURMOUNT-5, is Philippine FDA-approved, and has a robust evidence base. Patients who start now build medical history, treatment response data, and a physician relationship that will directly inform whether and how to transition to retatrutide later.
+
+Third, establishing a relationship with a physician-led platform that stays current on the retatrutide clinical program and will offer it through proper medical channels when approved.
+
+## What You Should Avoid
+
+Not every source of "retatrutide support" in the Philippines is offering medical care. Be cautious of sellers offering retatrutide without any medical consultation — products labeled as retatrutide sold through social media, Telegram channels, or peptide vendor sites are unregulated and unverified. Be cautious of providers who frame unapproved products as equivalent to the clinical trial compound — compounded or "research" retatrutide is not the pharmaceutical-grade product being studied by Eli Lilly. And be cautious of any "consultation" that consists of a brief questionnaire with auto-generated output — if no physician reviews your medical history individually, that is not a medical evaluation.
+
+## What a Kora Health Consultation Looks Like
+
+The process is straightforward. You complete a brief health screening form. A licensed Philippine physician reviews your information and conducts a consultation — evaluating your health profile, discussing your goals, and determining whether GLP-1 treatment is medically appropriate.
+
+If treatment is appropriate, your physician prescribes a personalized plan using tirzepatide — the most effective approved option. Medication is compounded in an FDA-regulated pharmacy, delivered in cold-chain packaging, and supported by structured follow-up care including weekly check-ins and monthly consultations.
+
+When retatrutide becomes available, your existing physician relationship and treatment data will position you for a seamless evaluation of whether the triple-agonist approach is right for your specific health profile.
+
+For patients across Metro Manila and other Philippine cities, see [where Filipinos are searching for retatrutide information](/learn/retatrutide-philippines-locations).
+
+## The Practical Bottom Line
+
+Exploring retatrutide in the Philippines in 2026 means educating yourself, avoiding unverified products, and beginning treatment with what is proven and available under physician supervision. The consultation process that governs safe GLP-1 treatment already exists. The question is not whether to start — it is who you trust to guide you.`
+  },
+  {
+    slug: 'is-retatrutide-safe',
+    title: 'Is Retatrutide Safe? Side Effects, Risks, and What to Consider Before Starting',
+    seoTitle: 'Is Retatrutide Safe? Side Effects, Risks, and What to Consider Before Starting',
+    metaDescription: 'What clinical trials reveal about retatrutide safety — common side effects, the new dysesthesia signal, serious risks, and why physician oversight is essential.',
+    category: 'Medication Safety',
+    readingTime: '8 min read',
+    publishedDate: '2026-03-25',
+    reviewedBy: 'Dr. [Physician Name]',
+    reviewedByTitle: 'Medical Director, Kora Health · PRC License #[000000]',
+    excerpt: 'What clinical trials reveal about retatrutide safety — common side effects, the dysesthesia signal, serious risks, and why physician monitoring is essential.',
+    relatedSlugs: ['retatrutide-philippines', 'how-to-explore-retatrutide-philippines', 'retatrutide-vs-tirzepatide'],
+    content: `You have seen the retatrutide weight loss numbers. Now you want the part that most hype articles skip: what does the safety data actually show? What side effects are common? What is the dysesthesia signal everyone is discussing? And what risks should a physician evaluate before prescribing this class of medication?
+
+The clinical trial data provides clear answers. Here is what the evidence says — without minimizing the risks or overstating the concerns.
+
+## Where This Safety Data Comes From
+
+Retatrutide's safety profile is based on a completed Phase 2 trial (published in NEJM, 2023, 338 participants) and the first Phase 3 results from TRIUMPH-4 (December 2025, 445 participants). Seven additional Phase 3 trials are reporting throughout 2026, which will significantly expand the safety dataset.
+
+This is a growing but still limited evidence base compared to tirzepatide (tens of thousands of participants across multiple completed Phase 3 trials) or semaglutide (even larger datasets). The safety picture for retatrutide will become clearer as more TRIUMPH data is published.
+
+For the full clinical overview, see [what retatrutide is and how it works](/learn/retatrutide-philippines).
+
+## Common Side Effects
+
+The most frequently reported side effects are gastrointestinal — consistent with every GLP-1 class medication studied to date.
+
+In TRIUMPH-4, nausea was reported by approximately 43% of participants on the highest dose, diarrhea by 33%, vomiting by 21%, constipation and decreased appetite at lower but meaningful rates. These rates are somewhat higher than typically seen in tirzepatide trials (24-33% nausea), which may reflect the additional glucagon receptor activity, the more pronounced weight loss, or population differences between trials.
+
+The critical context: gastrointestinal side effects concentrate in the dose escalation phase — the first several weeks when the dose is gradually increased. For most patients in GLP-1 trials, these effects are mild to moderate and improve significantly as the body adjusts. Slow, physician-guided dose escalation is the primary tool for managing GI tolerability.
+
+For a comparison of side effect profiles between retatrutide and tirzepatide, see [retatrutide vs tirzepatide](/learn/retatrutide-vs-tirzepatide).
+
+## Dysesthesia: The New Signal
+
+The most discussed safety finding from TRIUMPH-4 is dysesthesia — skin sensitivity, tingling, or tenderness to touch — reported in approximately 20.9% of participants on the 12mg dose. This side effect was not observed in the Phase 2 trial, making it a genuinely new signal.
+
+Several important qualifications: the dysesthesia events were generally described as mild. They rarely led to treatment discontinuation. The mechanism is not yet fully understood — it may be related to glucagon receptor activation, the degree of weight loss, or other metabolic changes. More data from the remaining TRIUMPH trials will be needed to fully characterize this side effect.
+
+This finding is worth monitoring, not panicking about. But it is a legitimate new consideration that distinguishes retatrutide's safety profile from tirzepatide and semaglutide, which have not shown this signal.
+
+## Serious but Rare Risks
+
+Based on the GLP-1 class profile and the available retatrutide data, the following serious risks apply.
+
+**Pancreatitis.** Acute pancreatitis is a known class-level risk for GLP-1 medications. Symptoms include severe abdominal pain radiating to the back. Any occurrence requires immediate medical attention and discontinuation of treatment.
+
+**Gallbladder disease.** Rapid weight loss — regardless of the method — increases the risk of gallstone formation. Given retatrutide's pronounced weight loss effect, this risk may be elevated compared to lower-efficacy medications.
+
+**Thyroid C-cell tumors.** GLP-1 class drugs have caused thyroid C-cell tumors in rodent studies. This has not been confirmed in humans. Retatrutide is expected to carry a boxed warning similar to tirzepatide and semaglutide. It will be contraindicated for anyone with a personal or family history of medullary thyroid carcinoma or MEN 2 syndrome.
+
+**Excessive weight loss.** In TRIUMPH-4, some participants discontinued treatment because they lost more weight than intended. Eli Lilly noted that discontinuation rates due to adverse events correlated with lower baseline BMI. This is a novel concern — the medication may be too effective for some patients, requiring careful dose management.
+
+## Who Should Not Take Retatrutide
+
+Based on the GLP-1 class profile, retatrutide will be contraindicated for individuals with a personal or family history of medullary thyroid carcinoma, those with MEN 2 syndrome, individuals who are pregnant or breastfeeding, and those with known hypersensitivity to the compound.
+
+Physicians will also exercise caution with patients who have a history of severe pancreatitis, gastroparesis, or significant kidney impairment.
+
+This is why medical screening exists — and why accessing any GLP-1 treatment without a physician evaluation introduces avoidable risk. For a practical guide to what the screening process looks like, see [exploring retatrutide support in the Philippines](/learn/how-to-explore-retatrutide-philippines).
+
+## The Bottom Line on Safety
+
+Retatrutide's safety profile is consistent with the GLP-1 class but carries some unique considerations — particularly the dysesthesia signal and the potential for excessive weight loss in lower-BMI patients. The evidence base is still growing. Seven additional Phase 3 trials reporting in 2026 will substantially expand what we know.
+
+For anyone considering GLP-1 treatment today, tirzepatide has the most extensive Phase 3 safety dataset of any dual- or triple-agonist medication. It has been studied in tens of thousands of participants and is FDA-approved. That depth of evidence is valuable.
+
+For a comparison of the two treatments, see [retatrutide vs tirzepatide](/learn/retatrutide-vs-tirzepatide).`
+  },
+  {
+    slug: 'retatrutide-vs-tirzepatide',
+    title: 'Retatrutide vs Tirzepatide: What\'s the Difference for Weight Management?',
+    seoTitle: 'Retatrutide vs Tirzepatide: What\'s the Difference for Weight Management?',
+    metaDescription: 'How retatrutide compares to tirzepatide — triple agonist vs dual agonist, clinical weight loss data, side effects, and what\'s actually available in the Philippines.',
+    category: 'Comparisons',
+    readingTime: '7 min read',
+    publishedDate: '2026-03-25',
+    reviewedBy: 'Dr. [Physician Name]',
+    reviewedByTitle: 'Medical Director, Kora Health · PRC License #[000000]',
+    excerpt: 'Evidence-based comparison of retatrutide and tirzepatide — mechanism, weight loss data, side effects, and the critical availability difference.',
+    relatedSlugs: ['retatrutide-philippines', 'how-to-explore-retatrutide-philippines', 'is-retatrutide-safe'],
+    content: `Triple agonist versus dual agonist. Three receptors versus two. 28.7% weight loss versus 20.2%. The headlines make retatrutide sound like a clear upgrade over tirzepatide.
+
+The reality is more nuanced — and one critical factor makes the comparison academic for anyone making a decision in the Philippines in 2026: one medication is available now, and one is not.
+
+Here is an honest, evidence-based comparison that acknowledges both the data and the practical reality.
+
+## How They Work: The Receptor Difference
+
+**Tirzepatide** activates two receptors — GLP-1 and GIP. This dual mechanism reduces appetite, improves insulin sensitivity, enhances satiety, and supports fat metabolism. It is sold under the brand names Mounjaro (diabetes) and Zepbound (weight management). It is FDA-approved and Philippine FDA-approved.
+
+**Retatrutide** activates three receptors — GLP-1, GIP, and glucagon. It does everything tirzepatide does, plus the glucagon pathway increases resting energy expenditure and accelerates liver fat clearance. It is an investigational drug in Phase 3 clinical trials. It is not approved by any regulatory agency.
+
+The glucagon receptor is the meaningful pharmacological addition. It is the likely explanation for retatrutide's superior weight loss numbers — the body burns more calories at rest while simultaneously experiencing reduced appetite and improved metabolic function.
+
+For a detailed explanation of the triple-agonist mechanism, see [what retatrutide is and how it works](/learn/retatrutide-philippines).
+
+## Weight Loss Data: What the Numbers Say
+
+No head-to-head trial between retatrutide and tirzepatide has been completed. The comparison below draws from their respective clinical trials — different populations, different baseline characteristics, different designs. Cross-trial comparison is informative but imprecise.
+
+**Tirzepatide — SURMOUNT-5 (NEJM 2025):** 20.2% mean body weight reduction at 72 weeks. Head-to-head against semaglutide (13.7%). Population: adults with obesity, no diabetes.
+
+**Retatrutide — TRIUMPH-4 (December 2025):** 28.7% mean body weight reduction at 68 weeks versus placebo. Population: adults with obesity and knee osteoarthritis (higher average BMI of 40.4).
+
+**Retatrutide — Phase 2 (NEJM 2023):** 24.2% mean body weight reduction at 48 weeks. Population: adults with obesity.
+
+The absolute numbers favor retatrutide by a meaningful margin. The TRIUMPH-4 population had higher baseline BMI, which can produce larger absolute weight loss. A direct randomized comparison of the two drugs in matched populations has not been published.
+
+## Side Effects: Where They Differ
+
+Both share the GLP-1 class gastrointestinal profile — nausea, diarrhea, constipation, vomiting, decreased appetite. Both are primarily experienced during dose escalation and are generally mild to moderate.
+
+Key differences in the current data:
+
+**GI event rates** appear somewhat higher with retatrutide (43% nausea in TRIUMPH-4) compared to tirzepatide (24-33% in SURMOUNT trials). Direct comparison is limited by trial design differences.
+
+**Dysesthesia** — skin sensitivity and tingling — was reported in approximately 21% of participants on the highest retatrutide dose. This has not been observed with tirzepatide. It is generally mild but represents a genuinely unique safety signal.
+
+**Excessive weight loss** led to some discontinuations in TRIUMPH-4, particularly in patients with lower baseline BMI. This concern is less prominent in the tirzepatide data.
+
+Both carry the same class-level warnings for pancreatitis, gallbladder disease, and thyroid C-cell tumors.
+
+For more detail on the safety data, see [retatrutide safety and side effects](/learn/is-retatrutide-safe).
+
+## Availability: The Factor That Changes Everything
+
+This is where the comparison moves from theoretical to practical.
+
+**Tirzepatide** is available now. It has been through the full regulatory process. It is sold at Philippine pharmacies (branded Mounjaro). It is available through telehealth providers as a compounded option. You can begin treatment after a medical consultation.
+
+**Retatrutide** is approximately 18-24 months from potential regulatory approval. NDA filing is projected for late 2026 to early 2027. FDA review takes 6-12 months. Philippine FDA approval follows. Products currently labeled "retatrutide" from unregulated sellers are not the pharmaceutical-grade compound from clinical trials.
+
+Waiting 18-24 months for a potentially superior medication while an effective, approved treatment exists means 18-24 months of continued metabolic burden — elevated cardiovascular risk, insulin resistance, joint stress, and reduced quality of life.
+
+For a detailed look at the access situation, see [exploring retatrutide support in the Philippines](/learn/how-to-explore-retatrutide-philippines).
+
+## How to Think About This Decision
+
+If both medications were available today, a physician would evaluate which one best fits your specific medical profile, comorbidities, tolerance, and goals. "More potent" does not always mean "best for every patient."
+
+Since only tirzepatide is available, the practical framework is: begin treatment with the most effective proven option now, build a medical relationship and treatment history, and evaluate transitioning to retatrutide if and when it is approved and your physician determines it is appropriate for your situation.
+
+Patients who start treatment now are not making a lesser choice. They are making a medically sound decision with the best available evidence — and positioning themselves for the future simultaneously.
+
+For more on how tirzepatide compares to semaglutide (both currently available), see [tirzepatide vs semaglutide](/learn/tirzepatide-vs-semaglutide).`
+  },
+  {
+    slug: 'retatrutide-philippines-locations',
+    title: 'Where People in Metro Manila, Makati, BGC, Cebu, and Davao Are Searching for Retatrutide Information',
+    seoTitle: 'Where People in Metro Manila, Makati, BGC, Cebu, and Davao Are Searching for Retatrutide Information',
+    metaDescription: 'Retatrutide search interest is growing across the Philippines — Metro Manila, Cebu, Davao. What Filipinos should know about access, timeline, and physician-led alternatives available now.',
+    category: 'Kora Learn',
+    readingTime: '7 min read',
+    publishedDate: '2026-03-25',
+    reviewedBy: 'Dr. [Physician Name]',
+    reviewedByTitle: 'Medical Director, Kora Health · PRC License #[000000]',
+    excerpt: 'Retatrutide search interest is growing in Metro Manila, Cebu, and Davao. What Filipinos in major cities should know about access, timeline, and what\'s available now.',
+    relatedSlugs: ['retatrutide-philippines', 'how-to-explore-retatrutide-philippines', 'retatrutide-vs-tirzepatide'],
+    content: `Search interest in retatrutide is growing across the Philippines — concentrated in the same cities where demand for medical weight loss treatment has surged over the past two years. Metro Manila leads, followed by Cebu and Davao. Makati, BGC/Taguig, and Quezon City show the highest density of searches within the metro area.
+
+If you are in any of these locations and researching retatrutide, you are not alone. But you are also likely running into the same problem as everyone else: the information is scattered, the sources are unreliable, and the line between legitimate medical guidance and underground peptide marketing is difficult to distinguish.
+
+This guide clarifies the situation for Filipinos in major cities — what retatrutide is, why it is generating interest, when it may actually become available, and what physician-led treatment you can access right now regardless of where you live.
+
+## Why Retatrutide Search Interest Is Concentrated in These Cities
+
+The geographic pattern is predictable. Metro Manila — particularly the business districts of Makati, BGC/Taguig, and the medical corridors of Quezon City — has the highest concentration of health-conscious professionals, specialist physicians, and early adopters of medical weight management. Cebu and Davao are the next largest urban centers with growing awareness of GLP-1 treatment options.
+
+These are the same areas where tirzepatide and semaglutide adoption has been strongest. The population searching for retatrutide largely overlaps with the population that already knows about GLP-1 medications and is looking for the next evolution.
+
+For the full picture on retatrutide's clinical data and regulatory timeline, see [retatrutide in the Philippines](/learn/retatrutide-philippines).
+
+## The Access Reality Across All Philippine Locations
+
+Here is what is uniform across every city: retatrutide is not available through any legitimate medical provider in the Philippines. Not in Makati. Not in BGC. Not in Cebu. Not in Davao. Not anywhere. It is an investigational drug in Phase 3 clinical trials with no regulatory approval anywhere in the world.
+
+Products marketed as retatrutide from local sellers, social media accounts, or peptide vendors — regardless of which city they claim to operate from — are unregulated and unverified. The geographic location of the seller does not change the regulatory status of the product.
+
+This is not a supply chain problem or a distribution gap. The drug has not completed the approval process required for it to be legally prescribed.
+
+For a detailed look at why these products carry risk, see [exploring retatrutide support in the Philippines](/learn/how-to-explore-retatrutide-philippines).
+
+## What IS Available Across Philippine Cities
+
+While retatrutide is 18-24 months from potential availability, tirzepatide — the dual-agonist that produced 20.2% average weight loss in head-to-head trials — is accessible nationwide through two channels.
+
+**In-person clinics** are concentrated in Metro Manila. Makati Medical Center, St. Luke's BGC, The Medical City in Pasig, and numerous private weight management clinics in Quezon City offer endocrinology and obesity medicine consultations. Cebu and Davao have specialist clinics as well, though with fewer options.
+
+**Telehealth platforms** have equalized access across the entire country. A licensed Philippine physician can conduct a full medical evaluation remotely — reviewing health history, screening for contraindications, discussing treatment options — and prescribe tirzepatide if appropriate. Medication is compounded and delivered in temperature-controlled packaging to any address.
+
+This means a patient in Davao has the same access to physician-led metabolic health treatment as someone in Makati CBD. The telehealth model eliminates the geographic constraint that historically limited specialist care to major metropolitan centers.
+
+## City-by-City: What to Know
+
+**Metro Manila (Makati, BGC, Quezon City, Pasig, Mandaluyong):** The highest density of both in-person clinics and telehealth providers. Competition among providers means more options — but also more variance in quality. Verify physician credentials, medication sourcing, and follow-up care structure before choosing.
+
+**Cebu:** Growing medical weight management market. Several endocrinology practices offer GLP-1 consultations. Telehealth access extends the available provider pool beyond local clinics.
+
+**Davao:** Specialist availability is more limited than Manila or Cebu. Telehealth is the primary access channel for physician-led metabolic health treatment.
+
+**Other Philippine cities (Iloilo, Bacolod, Cagayan de Oro, Zamboanga):** Specialist endocrinology and obesity medicine clinics are sparse. Telehealth is often the only practical route to physician-supervised GLP-1 treatment.
+
+The consistent message across all locations: the quality of your care depends on the physician and platform you choose, not your proximity to a physical clinic.
+
+For a detailed comparison of treatment options, see [retatrutide vs tirzepatide](/learn/retatrutide-vs-tirzepatide).
+
+## Starting Treatment Now vs Waiting for Retatrutide
+
+The temptation to wait for the "best possible" medication is understandable. Retatrutide's clinical numbers are remarkable. But 18-24 months of waiting is 18-24 months of delayed health improvement — months during which tirzepatide could be producing measurable weight loss, metabolic improvement, and reduced cardiovascular risk.
+
+Patients who begin treatment now with a physician-led platform build the medical history, treatment response data, and clinical relationship that will inform whether and how to transition to retatrutide when it becomes available.
+
+For a complete overview of what retatrutide is and when it may arrive, see [retatrutide in the Philippines](/learn/retatrutide-philippines).`
+  },
+  {
     slug: 'tirzepatide-philippines',
     title:
       'Tirzepatide in the Philippines: A Complete Guide to Cost, Access, and Physician-Led Treatment',
