@@ -1,0 +1,145 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Kora Health Design Tokens */
+  --kora-bg:              #FAF9F7;
+  --kora-surface:         #FFFFFF;
+  --kora-surface-alt:     #F4F2EE;
+  --kora-text-primary:    #0F1A2A;
+  --kora-text-body:       #3D4A5C;
+  --kora-text-muted:      #8B95A5;
+  --kora-brand:           #1B3A5C;
+  --kora-brand-hover:     #142D49;
+  --kora-brand-subtle:    #E8EDF4;
+  --kora-accent-warm:     #C4956A;
+  --kora-accent-warm-bg:  #F5EDE4;
+  --kora-success:         #2A7D5F;
+  --kora-error:           #C0392B;
+  --kora-border:          #E4E1DB;
+  --kora-border-light:    #EFEDE8;
+  --kora-footer-bg:       #0F1A2A;
+  --kora-footer-text:     #B8C1CE;
+
+  /* shadcn compat */
+  --background: #FAF9F7;
+  --foreground: #0F1A2A;
+  --card: #FFFFFF;
+  --card-foreground: #0F1A2A;
+  --popover: #FFFFFF;
+  --popover-foreground: #0F1A2A;
+  --primary: #1B3A5C;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F4F2EE;
+  --secondary-foreground: #0F1A2A;
+  --muted: #F4F2EE;
+  --muted-foreground: #8B95A5;
+  --accent: #E8EDF4;
+  --accent-foreground: #1B3A5C;
+  --destructive: #C0392B;
+  --destructive-foreground: #FFFFFF;
+  --border: #E4E1DB;
+  --input: #E4E1DB;
+  --ring: #1B3A5C;
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-color: var(--kora-bg);
+    color: var(--kora-text-primary);
+  }
+}
+
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 0;
+    transform: none;
+    transition: opacity 0.6s ease;
+  }
+}
+
+/* Hero load animation */
+.hero-fade {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: heroFadeIn 0.6s ease forwards;
+}
+@keyframes heroFadeIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade {
+    transform: none;
+    animation: heroFadeInReduced 0.6s ease forwards;
+  }
+  @keyframes heroFadeInReduced {
+    to { opacity: 1; }
+  }
+}
+
+/* Success icon scale-in */
+.scale-in {
+  animation: scaleIn 0.5s ease forwards;
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Hide scrollbar */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
