@@ -62,9 +62,9 @@ export default function ResultsSection() {
                 }}
               >
                 <p
-                  className="font-serif"
+                  className="font-sans font-bold"
                   style={{
-                    fontSize: 40,
+                    fontSize: 48,
                     lineHeight: 1,
                     color: 'var(--kora-brand)',
                   }}
@@ -90,7 +90,7 @@ export default function ResultsSection() {
 
         <ScrollReveal delay={240}>
           <p
-            className="text-sm italic text-center mt-8 max-w-xl mx-auto"
+            className="text-sm font-normal text-center mt-8 max-w-xl mx-auto"
             style={{ color: 'var(--kora-text-muted)' }}
           >
             Real Kora Health patient results will be published here as our program grows. These figures are from published peer-reviewed clinical trials.

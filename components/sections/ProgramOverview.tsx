@@ -133,7 +133,7 @@ export default function ProgramOverview() {
               All medications compounded in an FDA-regulated Philippine pharmacy and delivered in temperature-controlled packaging.
             </p>
             <p
-              className="text-[11px] italic text-center mt-2"
+              className="text-[11px] font-normal text-center mt-2"
               style={{ color: 'var(--kora-text-muted)' }}
             >
               Product photo placeholder — replace with real packaging image

@@ -87,7 +87,7 @@ export default function TeamSection() {
                     </div>
                   ) : (
                     <div
-                      className="flex items-center justify-center rounded-full mx-auto font-serif"
+                      className="flex items-center justify-center rounded-full mx-auto font-sans font-semibold"
                       style={{
                         width: 96,
                         height: 96,
@@ -103,7 +103,7 @@ export default function TeamSection() {
                     </div>
                   )}
                   <p
-                    className="text-[11px] italic mt-1.5"
+                    className="text-[11px] font-normal mt-1.5"
                     style={{ color: 'var(--kora-text-muted)' }}
                   >
                     {person.isDoctor
@@ -122,7 +122,7 @@ export default function TeamSection() {
                   {person.title}
                 </p>
                 <p
-                  className="text-sm italic mt-3 leading-relaxed max-w-xs mx-auto"
+                  className="text-sm mt-3 leading-relaxed max-w-xs mx-auto"
                   style={{ color: 'var(--kora-text-body)' }}
                 >
                   {person.quote}
