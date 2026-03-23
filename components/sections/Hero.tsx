@@ -82,7 +82,7 @@ export default function Hero() {
               color: 'var(--kora-text-muted)',
             }}
           >
-            Serving patients across Metro Manila, Cebu, and Davao
+            Now accepting consultations across the Philippines
           </div>
         </div>
       </div>

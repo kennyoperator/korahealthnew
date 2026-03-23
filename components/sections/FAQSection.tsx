@@ -14,6 +14,10 @@ const faqs = [
     a: 'Yes. Kora Health is a registered Philippine business operating as a telehealth platform. All treatments are prescribed by Philippine-licensed physicians and compounded in FDA-regulated pharmacies. Our business registration details are displayed on this website.',
   },
   {
+    q: 'How much does the program cost?',
+    a: 'Costs depend on your prescribed dose and treatment plan. Your consultation includes completely transparent pricing with no hidden fees. We do not charge for consultations, and there are no lock-ins or subscription requirements.',
+  },
+  {
     q: 'How is this different from buying from social media sellers?',
     a: 'Most online sellers operate without medical oversight, sell unverified products, and provide no follow-up care. Kora Health requires a physician consultation before any prescription is issued, sources exclusively from regulated pharmacies, and provides ongoing medical monitoring throughout your program.',
   },
@@ -24,10 +28,6 @@ const faqs = [
   {
     q: 'Is this treatment safe?',
     a: 'Tirzepatide has been studied in large clinical trials involving thousands of participants. Like all medications, it has potential side effects — most commonly nausea, which typically improves as your body adjusts. Your Kora physician will evaluate your health history, monitor your progress, and adjust treatment as needed.',
-  },
-  {
-    q: 'How much does the program cost?',
-    a: 'Costs depend on your prescribed dose and treatment plan. Your consultation includes completely transparent pricing with no hidden fees. We do not charge for consultations, and there are no lock-ins or subscription requirements.',
   },
   {
     q: 'How is medication delivered?',

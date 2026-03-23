@@ -23,7 +23,7 @@ export default function FinalCTA() {
               color: 'var(--kora-text-primary)',
             }}
           >
-            Ready to Start?
+            Your Free Consultation Is Waiting
           </h2>
           <p
             className="text-lg max-w-lg mx-auto mt-4 leading-relaxed"

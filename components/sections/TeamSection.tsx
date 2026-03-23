@@ -1,25 +1,41 @@
-import { User } from 'lucide-react'
+'use client'
+
+import { Stethoscope } from 'lucide-react'
 import ScrollReveal from '@/components/ui/ScrollReveal'
+import CTAButton from '@/components/ui/CTAButton'
 
 const people = [
   {
-    name: '[Your Name]',
+    initial: 'K.O.',
+    name: 'Kenny',
     title: 'Co-Founder',
-    quote: '"We saw too many Filipinos risking their health with unverified sellers. Kora exists to offer a legitimate, physician-led alternative."',
+    quote:
+      '"We saw too many Filipinos risking their health with unverified sellers. Kora exists to offer a legitimate, physician-led alternative."',
+    isDoctor: false,
   },
   {
-    name: 'James [Last Name]',
+    initial: 'J',
+    name: 'James',
     title: 'Co-Founder',
-    quote: '"Access to metabolic health treatment shouldn\'t require navigating a broken, unregulated market. We\'re building the right way."',
+    quote:
+      '"Access to metabolic health treatment shouldn\'t require navigating a broken, unregulated market. We\'re building the right way."',
+    isDoctor: false,
   },
   {
-    name: 'Dr. [Name]',
+    initial: null,
+    name: 'Dr. ____',
     title: 'Medical Director · PRC License #[000000]',
-    quote: '"Every Kora patient is individually evaluated. I personally oversee clinical protocols to ensure safety and appropriate prescribing."',
+    quote:
+      '"Every Kora patient is individually evaluated. I personally oversee clinical protocols to ensure safety and appropriate prescribing."',
+    isDoctor: true,
   },
 ]
 
 export default function TeamSection() {
+  const scrollToForm = () => {
+    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section
       id="team"
@@ -50,25 +66,49 @@ export default function TeamSection() {
           {people.map((person, i) => (
             <ScrollReveal key={person.name} delay={i * 80}>
               <div className="text-center">
-                {/* Circular photo placeholder */}
                 <div className="flex flex-col items-center">
-                  <div
-                    className="flex items-center justify-center rounded-full mx-auto"
-                    style={{
-                      width: 96,
-                      height: 96,
-                      backgroundColor: 'var(--kora-surface-alt)',
-                      border: '2px solid var(--kora-border)',
-                    }}
-                    aria-label={`Photo placeholder for ${person.name}`}
-                  >
-                    <User size={32} strokeWidth={1.75} style={{ color: 'var(--kora-text-muted)' }} />
-                  </div>
+                  {person.isDoctor ? (
+                    <div
+                      className="flex items-center justify-center rounded-full mx-auto"
+                      style={{
+                        width: 96,
+                        height: 96,
+                        backgroundColor: 'var(--kora-brand-subtle)',
+                        border: '2px solid var(--kora-border)',
+                      }}
+                      aria-label="Physician avatar placeholder"
+                    >
+                      <Stethoscope
+                        size={32}
+                        strokeWidth={1.5}
+                        style={{ color: 'var(--kora-brand)' }}
+                        aria-hidden="true"
+                      />
+                    </div>
+                  ) : (
+                    <div
+                      className="flex items-center justify-center rounded-full mx-auto font-serif"
+                      style={{
+                        width: 96,
+                        height: 96,
+                        backgroundColor: 'var(--kora-brand-subtle)',
+                        border: '2px solid var(--kora-border)',
+                        fontSize: 32,
+                        color: 'var(--kora-brand)',
+                        lineHeight: 1,
+                      }}
+                      aria-label={`Avatar for ${person.name}`}
+                    >
+                      {person.initial}
+                    </div>
+                  )}
                   <p
-                    className="text-[11px] italic mt-1"
+                    className="text-[11px] italic mt-1.5"
                     style={{ color: 'var(--kora-text-muted)' }}
                   >
-                    Photo placeholder
+                    {person.isDoctor
+                      ? 'Physician credentials will be displayed here.'
+                      : 'Photo coming soon'}
                   </p>
                 </div>
 
@@ -78,10 +118,7 @@ export default function TeamSection() {
                 >
                   {person.name}
                 </p>
-                <p
-                  className="text-sm mt-0.5"
-                  style={{ color: 'var(--kora-text-muted)' }}
-                >
+                <p className="text-sm mt-0.5" style={{ color: 'var(--kora-text-muted)' }}>
                   {person.title}
                 </p>
                 <p
@@ -108,6 +145,15 @@ export default function TeamSection() {
             >
               Registered Philippine Business &nbsp;·&nbsp; SEC/DTI: [Registration #] &nbsp;·&nbsp; All Physicians PRC-Licensed
             </div>
+          </div>
+        </ScrollReveal>
+
+        {/* CTA */}
+        <ScrollReveal delay={300}>
+          <div className="flex justify-center mt-8">
+            <CTAButton variant="primary" onClick={scrollToForm}>
+              Book Your Free Consultation
+            </CTAButton>
           </div>
         </ScrollReveal>
       </div>

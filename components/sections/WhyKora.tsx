@@ -1,5 +1,8 @@
+'use client'
+
 import { X, Check } from 'lucide-react'
 import ScrollReveal from '@/components/ui/ScrollReveal'
+import CTAButton from '@/components/ui/CTAButton'
 
 const others = [
   'No medical consultation or screening',
@@ -18,6 +21,10 @@ const kora = [
 ]
 
 export default function WhyKora() {
+  const scrollToForm = () => {
+    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section
       className="py-16 md:py-28"
@@ -101,6 +108,15 @@ export default function WhyKora() {
             </div>
           </ScrollReveal>
         </div>
+
+        {/* CTA */}
+        <ScrollReveal delay={240}>
+          <div className="flex justify-center mt-8">
+            <CTAButton variant="primary" onClick={scrollToForm}>
+              Book Your Free Consultation
+            </CTAButton>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   )
