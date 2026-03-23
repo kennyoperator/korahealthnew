@@ -97,6 +97,45 @@ export default function Hero() {
             <span>Free &nbsp;·&nbsp; No obligation &nbsp;·&nbsp; 15 minutes</span>
           </div>
 
+          {/* Social proof strip */}
+          <div 
+            className="hero-fade flex items-center justify-center gap-3 mt-6"
+            style={{ animationDelay: '450ms' }}
+          >
+            <div className="flex -space-x-2">
+              {[1, 2, 3, 4, 5, 6].map(n => (
+                <Image 
+                  key={n}
+                  src={`/patient-${n}.png`}
+                  alt=""
+                  width={34}
+                  height={34}
+                  className="rounded-full ring-2 object-cover"
+                  style={{ 
+                    width: 34, 
+                    height: 34, 
+                    ringColor: 'var(--kora-bg)',
+                    borderColor: 'var(--kora-bg)',
+                    border: '2px solid var(--kora-bg)'
+                  }}
+                />
+              ))}
+            </div>
+
+            <p 
+              className="font-sans text-sm"
+              style={{ color: 'var(--kora-text-body)' }}
+            >
+              <span 
+                className="font-medium" 
+                style={{ color: 'var(--kora-brand)' }}
+              >
+                500+
+              </span>
+              {' '}patients treated across the Philippines
+            </p>
+          </div>
+
           {/* Product image */}
           <div className="hero-fade mt-10" style={{ animationDelay: '400ms' }}>
             <div className="max-w-sm mx-auto">
