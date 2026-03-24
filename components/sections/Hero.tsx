@@ -38,12 +38,12 @@ export default function Hero() {
             : `translate(${mousePos.x}px, calc(${mousePos.y}px - 50%)) rotate(${mousePos.x * 0.3}deg)`,
           transition: 'transform 0.3s ease-out',
           animation: isIdle ? 'gentleFloat 6s ease-in-out infinite' : 'none',
-          opacity: 0.08,
+          opacity: 0.18,
           zIndex: 0,
         }}
       >
         <Image
-          src="/reta-vial-hero.png"
+          src="/reta-vial.png"
           alt=""
           width={600}
           height={600}

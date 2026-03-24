@@ -44,7 +44,7 @@ export default function Header({ variant = 'default' }: HeaderProps) {
             width={140}
             height={36}
             className="flex-shrink-0 object-contain"
-            style={{ height: 36, width: 'auto' }}
+            style={{ height: '36px', width: 'auto' }}
           />
         </Link>
 
