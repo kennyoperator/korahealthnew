@@ -43,6 +43,7 @@ export default function Header({ variant = 'default' }: HeaderProps) {
             alt="Kora Health"
             width={140}
             height={36}
+            loading="eager"
             className="flex-shrink-0 object-contain"
             style={{ height: '36px', width: 'auto' }}
           />
