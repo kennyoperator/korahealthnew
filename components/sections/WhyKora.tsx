@@ -89,18 +89,35 @@ export default function WhyKora() {
             How Retatrutide Compares
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
-            {comparison.map((item) => (
-              <div
-                key={item.name}
-                className="rounded-xl p-5 text-center"
-                style={{
-                  backgroundColor: item.highlight ? '#fff' : 'var(--kora-surface)',
-                  border: item.highlight
-                    ? '1.5px solid var(--kora-brand)'
-                    : '1px solid var(--kora-border-light)',
-                  boxShadow: item.highlight ? '0 4px 16px rgba(0,0,0,0.07)' : 'none',
-                }}
-              >
+            {comparison.map((item, index) => (
+              <ScrollReveal key={item.name} delay={index * 150}>
+                <div
+                  className="rounded-xl p-5 text-center"
+                  style={{
+                    backgroundColor: item.highlight ? '#fff' : 'var(--kora-surface)',
+                    border: item.highlight
+                      ? '1.5px solid var(--kora-brand)'
+                      : '1px solid var(--kora-border-light)',
+                    boxShadow: item.highlight ? '0 4px 16px rgba(0,0,0,0.07)' : 'none',
+                    transition: 'transform 250ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 250ms cubic-bezier(0.16, 1, 0.3, 1)',
+                    cursor: 'default',
+                  }}
+                  onMouseEnter={e => {
+                    const t = e.currentTarget as HTMLElement
+                    if (item.highlight) {
+                      t.style.transform = 'translateY(-4px)'
+                      t.style.boxShadow = '0 10px 24px rgba(27, 58, 92, 0.08)'
+                    } else {
+                      t.style.transform = 'translateY(-3px)'
+                      t.style.boxShadow = '0 8px 20px rgba(0,0,0,0.05)'
+                    }
+                  }}
+                  onMouseLeave={e => {
+                    const t = e.currentTarget as HTMLElement
+                    t.style.transform = 'translateY(0)'
+                    t.style.boxShadow = item.highlight ? '0 4px 16px rgba(0,0,0,0.07)' : 'none'
+                  }}
+                >
                 <p
                   className="text-sm font-medium"
                   style={{ color: item.highlight ? 'var(--kora-brand)' : 'var(--kora-text-primary)' }}
@@ -135,7 +152,8 @@ export default function WhyKora() {
                 >
                   {item.receptors}
                 </p>
-              </div>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
           <p className="text-xs text-center mt-4" style={{ color: 'var(--kora-text-muted)' }}>
@@ -152,6 +170,17 @@ export default function WhyKora() {
               style={{
                 backgroundColor: 'var(--kora-surface-alt)',
                 border: '1px solid var(--kora-border)',
+                transition: 'transform 250ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 250ms cubic-bezier(0.16, 1, 0.3, 1)',
+              }}
+              onMouseEnter={e => {
+                const t = e.currentTarget as HTMLElement
+                t.style.transform = 'translateY(-3px)'
+                t.style.boxShadow = '0 8px 20px rgba(0,0,0,0.05)'
+              }}
+              onMouseLeave={e => {
+                const t = e.currentTarget as HTMLElement
+                t.style.transform = 'translateY(0)'
+                t.style.boxShadow = 'none'
               }}
             >
               <p
@@ -181,6 +210,17 @@ export default function WhyKora() {
                 backgroundColor: 'var(--kora-surface)',
                 border: '1.5px solid color-mix(in srgb, var(--kora-brand) 20%, transparent)',
                 boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
+                transition: 'transform 250ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 250ms cubic-bezier(0.16, 1, 0.3, 1)',
+              }}
+              onMouseEnter={e => {
+                const t = e.currentTarget as HTMLElement
+                t.style.transform = 'translateY(-4px)'
+                t.style.boxShadow = '0 10px 24px rgba(27, 58, 92, 0.08)'
+              }}
+              onMouseLeave={e => {
+                const t = e.currentTarget as HTMLElement
+                t.style.transform = 'translateY(0)'
+                t.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)'
               }}
             >
               <p
