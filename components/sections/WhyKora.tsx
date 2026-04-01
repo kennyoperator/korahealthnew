@@ -51,8 +51,8 @@ const comparison = [
 ]
 
 export default function WhyKora() {
-  const scrollToForm = () => {
-    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  const scrollToProduct = () => {
+    document.getElementById('product')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -267,8 +267,8 @@ export default function WhyKora() {
         {/* CTA */}
         <ScrollReveal delay={240}>
           <div className="flex justify-center mt-8">
-            <CTAButton variant="primary" onClick={scrollToForm}>
-              Book Your Free Consultation
+            <CTAButton variant="primary" onClick={scrollToProduct}>
+              Shop Retatrutide
             </CTAButton>
           </div>
         </ScrollReveal>

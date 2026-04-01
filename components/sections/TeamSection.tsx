@@ -39,8 +39,8 @@ const physicians = [
 ]
 
 export default function TeamSection() {
-  const scrollToForm = () => {
-    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  const scrollToProduct = () => {
+    document.getElementById('product')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (

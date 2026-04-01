@@ -357,7 +357,7 @@ export default function PatientResults() {
 
                 {/* CTA */}
                 <a
-                  href="#qualify"
+                  href="#product"
                   className="mt-6 inline-flex items-center justify-center font-medium text-sm rounded-full px-8 py-3 transition-all duration-200"
                   style={{
                     backgroundColor: 'var(--kora-brand)',
@@ -375,7 +375,7 @@ export default function PatientResults() {
                     ;(e.currentTarget as HTMLAnchorElement).style.boxShadow = ''
                   }}
                 >
-                  Book Your Free Consultation
+                  Shop Retatrutide
                 </a>
               </div>
             </div>
