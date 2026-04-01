@@ -5,8 +5,8 @@ import { ShieldCheck } from 'lucide-react'
 import CTAButton from '@/components/ui/CTAButton'
 
 export default function Hero() {
-  const scrollToForm = () => {
-    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  const scrollToProduct = () => {
+    document.getElementById('product')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -111,8 +111,8 @@ export default function Hero() {
 
           {/* Primary CTA */}
           <div className="hero-enter mt-8" style={{ animationDelay: '400ms' }}>
-            <CTAButton variant="primary" size="lg" onClick={scrollToForm}>
-              Book Your Free Consultation
+            <CTAButton variant="primary" size="lg" onClick={scrollToProduct}>
+              Shop Retatrutide
             </CTAButton>
           </div>
 
@@ -122,7 +122,7 @@ export default function Hero() {
             style={{ animationDelay: '440ms', color: 'var(--kora-text-muted)' }}
           >
             <ShieldCheck size={14} strokeWidth={1.75} />
-            <span>Free &nbsp;{'·'}&nbsp; No obligation &nbsp;{'·'}&nbsp; 15 minutes</span>
+            <span>FDA-regulated &nbsp;{'·'}&nbsp; Third-party tested &nbsp;{'·'}&nbsp; Cold-chain delivery</span>
           </div>
 
           {/* Social proof */}
