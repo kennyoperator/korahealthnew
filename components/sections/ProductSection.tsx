@@ -50,13 +50,13 @@ export default function ProductSection() {
                 className="font-sans text-3xl font-bold"
                 style={{ color: 'var(--kora-brand)' }}
               >
-                ₱X,XXX
+                ₱4,500
               </p>
               <p
                 className="text-sm mt-1"
                 style={{ color: 'var(--kora-text-muted)' }}
               >
-                Per vial · Everything included · No hidden fees
+                $80 USD · Per vial · Everything included · No hidden fees
               </p>
             </div>
 

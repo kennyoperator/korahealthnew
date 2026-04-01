@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: 'How much does retatrutide cost?',
-    a: 'Pricing varies by dosage tier. Starter doses begin at ₱X,XXX per month, maintenance doses at ₱X,XXX per month. All pricing is displayed transparently on the product page. Free nationwide delivery included.',
+    a: 'The price is ₱4,500 ($80 USD) per vial. This includes pharmaceutical-grade retatrutide, injection supplies, FDA-regulated compounding, third-party testing, and free nationwide cold-chain delivery. No hidden fees.',
   },
   {
     q: 'Do I need a prescription?',
