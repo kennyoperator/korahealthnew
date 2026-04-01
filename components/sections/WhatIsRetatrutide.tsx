@@ -5,8 +5,8 @@ import ScrollReveal from '@/components/ui/ScrollReveal'
 import CTAButton from '@/components/ui/CTAButton'
 
 export default function WhatIsRetatrutide() {
-  const scrollToForm = () => {
-    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  const scrollToProduct = () => {
+    document.getElementById('product')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (

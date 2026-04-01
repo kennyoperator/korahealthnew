@@ -1,40 +1,40 @@
 'use client'
 
 import Image from 'next/image'
-import { MessageSquare, UserCheck, Package, HeartPulse } from 'lucide-react'
+import { ShoppingCart, FileText, Package } from 'lucide-react'
 import ScrollReveal from '@/components/ui/ScrollReveal'
 import CTAButton from '@/components/ui/CTAButton'
 
 const steps = [
   {
     number: 1,
-    icon: MessageSquare,
-    title: 'Free Consultation',
-    description: 'Share your goals and medical history. Takes under 5 minutes. 100% online. No clinic visits. No waiting rooms.',
+    icon: ShoppingCart,
+    title: 'Select Your Plan',
+    description: 'Choose your dosage and subscription frequency. Free nationwide delivery.',
+    image: '/img-vial-person.png',
+    imageAlt: 'Retatrutide treatment plans',
   },
   {
     number: 2,
-    icon: UserCheck,
-    title: 'Physician Evaluation',
-    description: 'A named, Philippine-licensed doctor reviews your case, evaluates your medical history, and creates a personalized treatment plan.',
+    icon: FileText,
+    title: 'Complete Health Profile',
+    description: 'Fill out a quick medical form. Our physician will review within 24 hours.',
+    image: '/doctor-christina.png',
+    imageAlt: 'Dr. Christina Lavilla - Kora Health physician',
   },
   {
     number: 3,
     icon: Package,
-    title: 'Treatment Delivered',
-    description: 'Your retatrutide treatment is compounded in an FDA-regulated Philippine pharmacy, third-party tested for potency and sterility, and delivered in temperature-controlled packaging.',
-  },
-  {
-    number: 4,
-    icon: HeartPulse,
-    title: 'Ongoing Support',
-    description: 'Weekly check-ins, dose adjustments, and direct access to your care team — by video call, phone, or message.',
+    title: 'Receive & Start',
+    description: 'Your Retatrutide ships in 2–5 days. Begin your transformation with ongoing physician support.',
+    image: '/img-ongoing-support.png',
+    imageAlt: 'Patient receiving ongoing care support',
   },
 ]
 
 export default function HowItWorks() {
-  const scrollToForm = () => {
-    document.getElementById('qualify')?.scrollIntoView({ behavior: 'smooth' })
+  const scrollToProduct = () => {
+    document.getElementById('product')?.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -66,7 +66,7 @@ export default function HowItWorks() {
             aria-hidden="true"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">
             {steps.map((step, i) => {
               const Icon = step.icon
               return (
@@ -125,24 +125,16 @@ export default function HowItWorks() {
                     <p className="text-sm mt-1 leading-relaxed" style={{ color: 'var(--kora-text-body)' }}>
                       {step.description}
                     </p>
-                    {step.number === 1 && (
+                    {step.image && (
                       <div className="mt-4">
-                        <Image src="/img-consultation.png" alt="Video consultation with physician" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
-                      </div>
-                    )}
-                    {step.number === 2 && (
-                      <div className="mt-4">
-                        <Image src="/doctor-christina.png" alt="Dr. Christina Lavilla - Kora Health physician" width={180} height={180} className="rounded-xl mx-auto object-cover" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
-                      </div>
-                    )}
-                    {step.number === 3 && (
-                      <div className="mt-4">
-                        <Image src="/img-vial-person.png" alt="Patient holding Kora Health Retatrutide vial" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
-                      </div>
-                    )}
-                    {step.number === 4 && (
-                      <div className="mt-4">
-                        <Image src="/img-ongoing-support.png" alt="Patient receiving ongoing care support via phone" width={180} height={180} className="rounded-xl mx-auto" style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} />
+                        <Image 
+                          src={step.image} 
+                          alt={step.imageAlt || ''} 
+                          width={180} 
+                          height={180} 
+                          className="rounded-xl mx-auto object-cover" 
+                          style={{ boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }} 
+                        />
                       </div>
                     )}
                   </div>
@@ -154,8 +146,8 @@ export default function HowItWorks() {
 
         <ScrollReveal delay={320}>
           <div className="flex justify-center mt-10">
-            <CTAButton variant="primary" size="md" onClick={scrollToForm}>
-              Book Your Free Consultation
+            <CTAButton variant="primary" size="md" onClick={scrollToProduct}>
+              Shop Retatrutide
             </CTAButton>
           </div>
         </ScrollReveal>
